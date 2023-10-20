@@ -48,3 +48,8 @@ def get_id_by_name(name: str, categories: dict) -> int:
 
 def get_input_name(input_path: str) -> str:
     return os.path.splitext(os.path.basename(input_path))[0]
+
+
+def get_SAM_MODEL_NAME(path: str) -> str:
+    # sam_vit_l_0b3195.pth
+    return "_".join(path.split("_")[1:3])
