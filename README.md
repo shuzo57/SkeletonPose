@@ -19,3 +19,7 @@ SkeletonPoseは、画像内の人物の姿勢推定を行うためのツール�
 ```bash
 pip install -e .
 ```
+
+## モデルのダウンロード
+BOXリンク
+- https://tus.box.com/s/50959ctzx3rftqthnq6aq0orqn2cdj6r
